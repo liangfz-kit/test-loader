@@ -1,0 +1,23 @@
+{
+  "name": "test-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangfz-kit/test-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangfz-kit/test-loader/issues"
+  },
+  "homepage": "https://github.com/liangfz-kit/test-loader#readme",
+  "dependencies": {
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^2.6.5"
+  }
+}
