@@ -1,8 +1,8 @@
-import { getOptions } from 'loader-utils';
-import validateOptions from 'schema-utils';
+const loaderUtils = require('loader-utils');
+const validateOptions = require('schema-utils');
 
 function loader(src) {
-    const options = getOptions(this);
+    const options = loaderUtils.getOptions(this);
     validateOptions(schema, options, {
         name: 'Test Loader',
         baseDataPath: 'options',
